@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média e Frequência</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/ung.jpg" alt="UnG">
+        <h1>Calculadora de Média e Frequência</h1>
+        <h2>Média</h2>
+        <div class="nome-container">
+        <input type="text" id="aluno" placeholder="Nome do Aluno">
+        </div>
+        <div class="inputs">
+            <input type="number" id="cx1" placeholder="Nota 1">
+            <input type="number" id="cx2" placeholder="Nota 2">
+            <input type="number" id="cx3" placeholder="Nota 3">
+            <input type="number" id="cx4" placeholder="Média" readonly>
+        </div>
+        <h2>Frequência</h2>
+        <div class="inputs">
+            <input type="number" id="totalAulas" placeholder="Aulas Totais">
+            <input type="number" id="aulasParticipadas" placeholder="Aulas Participadas">
+        </div>
+        <button onclick="calcularMedia()">Calcular Média</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="js/javinha.js"></script>
+</body>
+
+</html>
